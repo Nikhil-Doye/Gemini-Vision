@@ -8,8 +8,8 @@ from PIL import Image
 
 ##Important
 ## Stores sectres in the GOOGLE_API_KEY variable while deploying at streamlit.
-#genai.configure(api_key = st.secrets["GOOGLE_API_KEY"])
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key = st.secrets["GOOGLE_API_KEY"])
+#genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 ##Function to load GeminiPro Model and get responses
 
